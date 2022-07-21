@@ -23,7 +23,7 @@ const Articles = ({user, changeLanguage, setArticles}) => {
 
   
   const logout = () => {
-    window.open("http://mern2-spacehub.herokuapp.com/auth/logout", "_self");
+    window.open("https://mern2-spacehub.herokuapp.com/auth/logout", "_self");
   };
   return (
     <div>

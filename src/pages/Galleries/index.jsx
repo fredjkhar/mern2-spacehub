@@ -33,7 +33,7 @@ const Galleries = ({user, changeLanguage}) => {
   const { t } = useTranslation();
   
   const logout = () => {
-    window.open("http://mern2-spacehub.herokuapp.com/auth/logout", "_self");
+    window.open("https://mern2-spacehub.herokuapp.com/auth/logout", "_self");
   };
   const [state, setState] = useState([]);
   const [index, setIndex] = useState(0);

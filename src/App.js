@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://mern2-spacehub.herokuapp.com/auth/login/success", {
+      fetch("https://mern2-spacehub.herokuapp.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {

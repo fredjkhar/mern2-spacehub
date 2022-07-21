@@ -22,7 +22,7 @@ const Header = ({user, changeLanguage}) => {
   const { signout } = UserAuth();
 
   const logout = () => {
-    window.open("http://mern2-spacehub.herokuapp.com/auth/logout", "_self");
+    window.open("https://mern2-spacehub.herokuapp.com/auth/logout", "_self");
     try {
       signout();
     } catch (e) {

@@ -61,11 +61,11 @@ const SignUp = ({setUser, changeLanguage}) => {
   
 
   const google = ()=> {
-    window.open("http://mern2-spacehub.herokuapp.com/auth/google", "_self")
+    window.open("https://mern2-spacehub.herokuapp.com/auth/google", "_self")
   }
 
   const github = ()=> {
-    window.open("http://mern2-spacehub.herokuapp.com/auth/github", "_self")
+    window.open("https://mern2-spacehub.herokuapp.com/auth/github", "_self")
   }
 
   return (
