@@ -59,6 +59,7 @@ const CommentSection = ({ user, changeLanguage }) => {
                     )
                 }
                 )}
+                
             </div>
             <div style={{width: '70%'}}>
                 <h5 style={{fontSize: '1.5rem', paddingLeft: '2rem'}}>{t('write_comment')}</h5>
